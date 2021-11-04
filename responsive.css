@@ -1,0 +1,84 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #nav > li{
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }   
+
+    #nav  > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a{
+        display: block;
+        padding: 1px 24px;
+    }
+
+    #nav .subnav{
+        position: initial;
+    }
+
+    #nav .subnav a{
+        background-color: #333;
+        color: white;
+        padding: 5px 39px;
+    }
+    .menu{
+        display: block;
+    }
+
+    .search-btn{
+        display: none;
+    }
+
+    #content .member-item{
+        width: 100%;
+    }
+
+    #content .img-member{
+        margin-bottom: 16px;
+        width: 60%;
+    }
+
+    .place-list{
+        margin-top: 0px;
+    }
+
+    .place-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #contact .form-send td:first-child{
+        padding: 0;
+    }
+    #contact .form-send td{
+        float: left;
+        width: 100%;
+    }
+
+    .btn-ticket{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .contact-container input[type="submit"]{
+        width: 100%;
+    }
+}
